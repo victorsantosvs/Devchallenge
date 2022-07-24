@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+main {
+    position: relative;
+    width: 97vw;
+    margin: auto;
+}
+ul {
+    position: absolute;
+    left: 70vw;
+    margin-top: 50px;
+}
+li {
+    display: inline;
+    font-size: 1.4em;
+    margin: 0px 10px;
+}
+.btred {
+    background-color: red;
+    padding: 5px 35px;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+#call {
+    position: relative;
+    top: 200px;
+    left: 250px;
+    width: 500px;
+}
+
+section#inicio {
+    position: absolute;
+    top: 280px;
+    left: 48vw;
+}
+button.btred {
+    position: absolute;
+    top: 250px;
+    font-size: 1.7em;
+    padding: 6px 80px;
+}
+h1 {
+    color: red;
+    font-size: 7em;
+}
+h2 {
+    font-size: 3em;
+}
+
+@media (max-width: 1780px) {
+    #call {
+        position: relative;
+        top: 200px;
+        left: 250px;
+        width: 400px;
+    }
+    section#inicio {
+        position: absolute;
+        top: 280px;
+        left: 52vw;
+    }
+    button.btred {
+        position: absolute;
+        top: 200px;
+        font-size: 1.5em;
+        padding: 6px 70px;
+    }
+    h1 {
+        color: red;
+        font-size: 6em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+}
+@media (max-width: 1680px) {
+
+    ul {
+        position: absolute;
+        left: 68vw;
+        margin-top: 50px;
+    }
+    #call {
+        position: relative;
+        top: 200px;
+        left: 250px;
+        width: 390px;
+    }
+    section#inicio {
+        position: absolute;
+        top: 280px;
+        left: 52vw;
+    }
+    button.btred {
+        position: absolute;
+        top: 160px;
+        font-size: 1.5em;
+        padding: 6px 70px;
+    }
+    h1 {
+        color: red;
+        font-size: 5em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 1520px) {
+
+    ul {
+        position: absolute;
+        left: 65vw;
+        margin-top: 50px;
+    }
+    #call {
+        position: relative;
+        top: 200px;
+        left: 250px;
+        width: 390px;
+    }
+    section#inicio {
+        position: absolute;
+        top: 280px;
+        left: 54vw;
+    }
+    button.btred {
+        position: absolute;
+        top: 160px;
+        font-size: 1.4em;
+        padding: 6px 70px;
+    }
+    h1 {
+        color: red;
+        font-size: 4.7em;
+    }
+    h2 {
+        font-size: 1.4em;
+    }
+}
