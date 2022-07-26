@@ -35,7 +35,7 @@ li {
 #call {
     position: relative;
     top: 200px;
-    left: 250px;
+    left: 230px;
     width: 500px;
 }
 
@@ -62,8 +62,8 @@ h2 {
     #call {
         position: relative;
         top: 200px;
-        left: 250px;
-        width: 400px;
+        left: 230px;
+        width: 440px;
     }
     section#inicio {
         position: absolute;
@@ -104,17 +104,11 @@ h2 {
     }
     button.btred {
         position: absolute;
-        top: 160px;
+        top: 200px;
         font-size: 1.5em;
         padding: 6px 70px;
     }
-    h1 {
-        color: red;
-        font-size: 5em;
-    }
-    h2 {
-        font-size: 1.5em;
-    }
+   
 }
 
 @media (max-width: 1520px) {
@@ -127,8 +121,35 @@ h2 {
     #call {
         position: relative;
         top: 200px;
-        left: 250px;
+        left: 230px;
         width: 390px;
+    }
+    section#inicio {
+        position: absolute;
+        top: 280px;
+        left: 54vw;
+    }
+    button.btred {
+        position: absolute;
+        top: 160px;
+        font-size: 1.4em;
+        padding: 6px 70px;
+    }
+  
+}
+
+@media (max-width: 1380px) {
+
+    ul {
+        position: absolute;
+        left: 60vw;
+        margin-top: 50px;
+    }
+    #call {
+        position: relative;
+        top: 200px;
+        left: 230px;
+        width: 350px;
     }
     section#inicio {
         position: absolute;
@@ -143,9 +164,79 @@ h2 {
     }
     h1 {
         color: red;
-        font-size: 4.7em;
+        font-size: 4.5em;
     }
     h2 {
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
+}
+@media (max-width: 1210px) {
+
+    ul {
+        position: absolute;
+        left: 60vw;
+        margin-top: 50px;
+    }
+    #call {
+        position: relative;
+        top: 200px;
+        left: 200px;
+        width: 350px;
+    }
+    section#inicio {
+        position: absolute;
+        top: 280px;
+        left: 54vw;
+    }
+    button.btred {
+        position: absolute;
+        top: 160px;
+        font-size: 1.4em;
+        padding: 6px 70px;
+    }
+    h1 {
+        color: red;
+        font-size: 4.5em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+}
+@media (max-width: 1200px) {
+
+    ul {
+        position: absolute;
+        left: 60vw;
+        margin-top: 50px;
+    }
+    #call {
+        position: relative;
+        top: 200px;
+        left: 200px;
+        width: 330px;
+    }
+    section#inicio {
+        position: absolute;
+        top: 280px;
+        left: 54vw;
+    }
+    button.btred {
+        position: absolute;
+        top: 160px;
+        font-size: 1.4em;
+        padding: 6px 70px;
+    }
+    h1 {
+        color: red;
+        font-size: 4.2em;
+    }
+    h2 {
+        font-size: 1em;
+    }
+}
+
+/* !!! MOBILE !!! */
+
+@media (max-width: 420px) {
+   
 }
