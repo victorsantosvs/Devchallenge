@@ -9,21 +9,26 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
 main {
     position: relative;
     width: 97vw;
+    height: 100vh;
     margin: auto;
 }
-ul {
+
+ul#menu {
     position: absolute;
     left: 70vw;
     margin-top: 50px;
 }
-li {
+
+#menu li {
     display: inline;
     font-size: 1.4em;
     margin: 0px 10px;
 }
+
 .btred {
     background-color: red;
     padding: 5px 35px;
@@ -32,6 +37,7 @@ li {
     color: white;
     font-weight: 700;
 }
+
 #call {
     position: relative;
     top: 200px;
@@ -41,22 +47,31 @@ li {
 
 section#inicio {
     position: absolute;
+    display: inline-block;
     top: 280px;
     left: 48vw;
 }
+
 button.btred {
     position: absolute;
     top: 250px;
     font-size: 1.7em;
     padding: 6px 80px;
 }
+
 h1 {
     color: red;
     font-size: 7em;
 }
+
 h2 {
     font-size: 3em;
 }
+
+#lista {}
+
+/*!!! media queries !!!*/
+
 
 @media (max-width: 1780px) {
     #call {
@@ -65,171 +80,321 @@ h2 {
         left: 230px;
         width: 440px;
     }
+
     section#inicio {
         position: absolute;
         top: 280px;
         left: 52vw;
     }
+
     button.btred {
         position: absolute;
         top: 200px;
         font-size: 1.5em;
         padding: 6px 70px;
     }
+
     h1 {
         color: red;
         font-size: 6em;
     }
+
     h2 {
         font-size: 2em;
     }
 }
+
 @media (max-width: 1680px) {
 
-    ul {
+    ul#menu {
         position: absolute;
         left: 68vw;
         margin-top: 50px;
     }
+
     #call {
         position: relative;
         top: 200px;
         left: 250px;
         width: 390px;
     }
+
     section#inicio {
         position: absolute;
         top: 280px;
         left: 52vw;
     }
+
     button.btred {
         position: absolute;
         top: 200px;
         font-size: 1.5em;
         padding: 6px 70px;
     }
-   
+
 }
 
-@media (max-width: 1520px) {
+@media (max-width: 1530px) {
 
-    ul {
+    ul#menu {
         position: absolute;
         left: 65vw;
         margin-top: 50px;
     }
+
     #call {
         position: relative;
         top: 200px;
         left: 230px;
         width: 390px;
     }
+
     section#inicio {
         position: absolute;
         top: 280px;
         left: 54vw;
     }
+
     button.btred {
         position: absolute;
         top: 160px;
         font-size: 1.4em;
         padding: 6px 70px;
     }
-  
+
+    h1 {
+        color: red;
+        font-size: 5.3em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 1420px) {
+
+    ul#menu {
+        position: absolute;
+        left: 65vw;
+        margin-top: 50px;
+    }
+
+    #call {
+        position: relative;
+        top: 200px;
+        left: 230px;
+        width: 390px;
+    }
+
+    section#inicio {
+        position: absolute;
+        top: 280px;
+        left: 54vw;
+    }
+
+    button.btred {
+        position: absolute;
+        top: 160px;
+        font-size: 1.4em;
+        padding: 6px 70px;
+    }
+
+    h1 {
+        color: red;
+        font-size: 5em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
 }
 
 @media (max-width: 1380px) {
 
-    ul {
+    ul#menu {
         position: absolute;
         left: 60vw;
         margin-top: 50px;
     }
+
     #call {
         position: relative;
         top: 200px;
         left: 230px;
         width: 350px;
     }
+
     section#inicio {
         position: absolute;
         top: 280px;
         left: 54vw;
     }
+
     button.btred {
         position: absolute;
         top: 160px;
         font-size: 1.4em;
         padding: 6px 70px;
     }
+
     h1 {
         color: red;
-        font-size: 4.5em;
+        font-size: 5em;
     }
+
     h2 {
-        font-size: 1.2em;
+        font-size: 2em;
     }
 }
-@media (max-width: 1210px) {
 
-    ul {
+@media (max-width: 1340px) {
+
+    ul#menu {
         position: absolute;
         left: 60vw;
         margin-top: 50px;
     }
+
+    #call {
+        position: relative;
+        top: 200px;
+        left: 230px;
+        width: 350px;
+    }
+
+    section#inicio {
+        position: absolute;
+        top: 280px;
+        left: 54vw;
+    }
+
+    button.btred {
+        position: absolute;
+        top: 160px;
+        font-size: 1.4em;
+        padding: 6px 70px;
+    }
+
+    h1 {
+        color: red;
+        font-size: 4.7em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 1250px) {
+
+    ul#menu {
+        position: absolute;
+        left: 60vw;
+        margin-top: 50px;
+    }
+
+    #call {
+        position: relative;
+        top: 200px;
+        left: 230px;
+        width: 350px;
+    }
+
+    section#inicio {
+        position: absolute;
+        top: 280px;
+        left: 54vw;
+    }
+
+    button.btred {
+        position: absolute;
+        top: 160px;
+        font-size: 1.4em;
+        padding: 6px 70px;
+    }
+
+    h1 {
+        color: red;
+        font-size: 4.5em;
+    }
+
+    h2 {
+        font-size: 1.7em;
+    }
+}
+
+@media (max-width: 1210px) {
+
+    ul#menu {
+        position: absolute;
+        left: 60vw;
+        margin-top: 50px;
+    }
+
     #call {
         position: relative;
         top: 200px;
         left: 200px;
         width: 350px;
     }
+
     section#inicio {
         position: absolute;
         top: 280px;
         left: 54vw;
     }
+
     button.btred {
         position: absolute;
         top: 160px;
         font-size: 1.4em;
         padding: 6px 70px;
     }
+
     h1 {
         color: red;
         font-size: 4.5em;
     }
+
     h2 {
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
 }
+
 @media (max-width: 1200px) {
 
-    ul {
+    ul#menu {
         position: absolute;
         left: 60vw;
         margin-top: 50px;
     }
+
     #call {
         position: relative;
         top: 200px;
         left: 200px;
         width: 330px;
     }
+
     section#inicio {
         position: absolute;
         top: 280px;
         left: 54vw;
     }
+
     button.btred {
         position: absolute;
         top: 160px;
         font-size: 1.4em;
         padding: 6px 70px;
     }
+
     h1 {
         color: red;
         font-size: 4.2em;
     }
+
     h2 {
         font-size: 1em;
     }
@@ -242,6 +407,7 @@ h2 {
         font-family: 'Roboto', sans-serif;
         background-color: red;
     }
+
     main {
         position: relative;
         width: 400px;
@@ -249,17 +415,20 @@ h2 {
         margin: auto;
         background-color: white;
     }
-    ul {
+
+    ul#menu {
         position: absolute;
         left: 30px;
         margin-top: 50px;
         font-weight: 700;
     }
-    li {
+
+    #menu li {
         display: inline;
         font-size: 1.2em;
         margin: 0px 25px;
     }
+
     .btred {
         background-color: red;
         padding: 5px 35px;
@@ -268,21 +437,24 @@ h2 {
         color: white;
         font-weight: 700;
     }
+
     li.btred {
         display: none;
     }
+
     #call {
         position: relative;
         top: 150px;
         left: 45px;
         width: 300px;
     }
-    
+
     section#inicio {
         position: absolute;
         top: 450px;
         left: 10vw;
     }
+
     button.btred {
         position: absolute;
         top: 100px;
@@ -291,13 +463,15 @@ h2 {
         padding: 12px 70px;
         font-weight: 400;
     }
+
     h1 {
         position: relative;
-        right: 25px;
+        right: 15px;
         color: red;
         font-size: 3em;
-        
+
     }
+
     h2 {
         position: relative;
         right: 10px;
