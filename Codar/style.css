@@ -75,6 +75,7 @@ h2 {
     top: 550px;
     margin-left: 230px;
     font-size: 1.7em;
+    padding-bottom: 100px;
 }
 #lista li {
     margin-bottom: 40px;
@@ -492,7 +493,8 @@ h2 {
     }
 
     li.btred {
-        display: none;
+        background-color: white;
+        padding: 0px;
     }
 
     #call {
@@ -529,5 +531,26 @@ h2 {
         position: relative;
         right: 10px;
         font-size: 1.3em;
+    }
+
+    #lista {
+        position: relative;
+        list-style-position: inside;
+        list-style-image: url(assets/icons/ok-24.ico);
+        top: 400px;
+        margin-left: 20px;
+        font-size: 1.3em;
+        line-height: 40px;
+    }
+    #lista li {
+        margin-bottom: 0px;  
+    }
+    
+    #coding {
+        display: none;
+        position: relative;
+        top: 50px;
+        left: 60vw;
+        width: 150px;
     }
 }
